@@ -139,6 +139,40 @@ article img {
 	border: 1px solid black;
 }
 
+/*  I used to live on a street called Table Mesa */
+figure {
+	margin-top: 1em;
+	margin-left: 0;
+}
+figcaption { 
+	color: #800000;
+}
+table{ 
+	border-collapse: collapse;
+}
+thead { 
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+}
+tfoot { 
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+}
+th, td {
+	padding: .2em 1em;
+	text-align: left;
+}
+tfoot th, tfoot td {
+	text-align: right;
+	font-weight: bold;
+}
+.bot_border {
+	border-bottom: 2px solid #800000;
+}
+.right { 
+	text-align: right;
+}
+
 /* the styles for the aside */
 aside {
 	width: 215px;
